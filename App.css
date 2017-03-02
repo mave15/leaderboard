@@ -1,0 +1,103 @@
+@font-face{
+    font-family: Sax Mono;
+    src: url('./saxmono.ttf');
+}
+
+::selection {
+    background: darkgreen;
+    color: white;
+}
+
+::-moz-selection {
+    background: darkgreen;
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.App{
+    font-family: 'Sax Mono', monospace;
+}
+
+.App-header {
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.avatar{
+    height: 2vw;
+    width: 2vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo-container{
+    width: 30%;
+}
+
+.name{
+    width: 30%;
+}
+
+.spacer{
+    font-size: .5vw;
+}
+
+.table{
+    font-size: 1.5vw;
+    margin: auto;
+    text-align: center;
+}
+
+.table-container{
+    display: flex;
+    margin: auto;
+    width: 95%;
+}
+
+.title{
+    font-size: 3.5vw;
+    position: absolute;
+    bottom: 8%;
+    left: 30%;
+}
+
+.values{
+    cursor:pointer;
+    padding: 10px;
+    width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 2vw;
+}
+
+th,
+td {
+    border: 1px solid #cecfd5;
+    padding: 10px 30px;
+}
+
+tr:nth-child(even) {
+    background: #dcebda;
+}
+
+.user{
+    text-align: left;
+ }
